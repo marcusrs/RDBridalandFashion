@@ -1,6 +1,9 @@
-﻿body {
+﻿
+
+body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: whitesmoke;
 }
 
 /* Wrapping element */
@@ -35,4 +38,27 @@ textarea {
   .carousel-caption {
     display: none
   }
+}
+
+#words{
+
+    background-color:lightgray;
+
+}
+
+.words{
+
+    line-height:1.4;
+    margin-top:10px;
+
+}
+
+#address {
+
+    margin-top:20px;
+}
+
+#special{
+    margin-top:20px;
+    margin-bottom:20px;
 }

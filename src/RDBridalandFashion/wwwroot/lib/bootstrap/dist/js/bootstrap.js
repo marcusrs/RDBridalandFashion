@@ -4,6 +4,9 @@
  * Licensed under the MIT license
  */
 
+
+
+
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery')
 }
@@ -1015,6 +1018,8 @@ if (typeof jQuery === 'undefined') {
         that.$element.trigger('focus').trigger(e)
     })
   }
+
+  
 
   Modal.prototype.hide = function (e) {
     if (e) e.preventDefault()
