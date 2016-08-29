@@ -1,7 +1,7 @@
 ﻿<div class="jumbotron">
     <div class="container-fluid">
-        <div class="text-center" id="heading">
-            <h1>R&D Fashion and Bridal</h1>
+        <div class="text-center" class="container-fluid" id="all">
+          <h1 id="other"><i id="heading">R&D</i> Fashion and Bridal</h1>
         </div>
         @{
             ViewData["Title"] = "Home Page";
@@ -71,44 +71,53 @@
                 </div>
 
             <div class="col-md-3" id="special">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Free</button>
-
-                <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-                    <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="row">
-                                <div class="col-md-3 col-md-offset-4"><h4><strong>Free!!! on Men's Tux Rental: Pay for six rentals, get one free</strong></h4></div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="dropdown">
+                    <button id="dLabel" type="button" class="btn btn-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        FREE
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <i class="text-center">
+                            <h3>
+                                FREE!!<br />
+                                Men's Tux Rental: When you Pay for six rentals, you get one free!!!!
+                            </h3>
+                        </i>
+                    </ul>
                 </div>
             </div>
 
-            <div class="col-md-3" id="special">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">$5 dollars OFF</button>
-
-                <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="row">
-                                <div class="col-md-3 col-md-offset-4"><h4><strong>$5 dollars off Purchase of ANY boys Suit or Girls Dress</strong></h4></div>
-                            </div>
-                        </div>
+                <div class="col-md-3" id="special">
+                    <div class="dropdown">
+                        <button id="dLabel" type="button" class="btn btn-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            $5 dollars off
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dLabel">
+                            <i class="text-center">
+                                <h3>
+                                    $5 OFF
+                                    Purchase ANY boys Suit or Girls Dress!!!!
+                                </h3>
+                            </i>
+                        </ul>
                     </div>
                 </div>
-            </div>
 
             <div class="col-md-3" id="special">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">$10 dollars OFF</button>
-
-                <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-                    <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="row">
-                                <div class="col-md-3 col-md-offset-4"><h4><strong>$10 dollars off Purchase of ANY Formal Gown</strong></h4></div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="dropdown">
+                    <button id="dLabel" type="button"  class="btn btn-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        $10 dollars off
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <i class="text-center">
+                            <h3>
+                                $10 OFF
+                                Purchase ANY Formal Gown!!!!
+                            </h3>
+                        </i>
+                    </ul>
                 </div>
             </div>
 
