@@ -4,8 +4,12 @@
   "dependencies": {
     "bootstrap": "3.3.6",
     "Font-Awesome": "4.6.3",
-    "jquery": "2.2.0",
+    "jquery": "2.2.3",
     "jquery-validation": "1.14.0",
-    "jquery-validation-unobtrusive": "3.2.6"
+    "jquery-validation-unobtrusive": "3.2.6",
+    "lightbox2": "2.8.2"
+  },
+  "resolutions": {
+    "jquery": ">=1.8"
   }
 }

@@ -17,37 +17,41 @@
                 @Html.ActionLink("Home", "Index", "Home")
 
             </div>
-         </div>
+        </div>
     </div>
 
 
     <div class="container-fluid" id="middle">
-        <p><h4>
-     <strong>R&D Fashion and Bridal</strong> offers a huge selection of bridal dresses, brides maid dresses, flower girls dresses, children's dress shoes, bridal accessories, Mother of the bride or groom dresses, formal handbags, formal jewelry, formal shoes for rental and purchase.
+        <p>
+            <h4>
+                <strong>R&D Fashion and Bridal</strong> offers a huge selection of bridal dresses, brides maid dresses, flower girls dresses, children's dress shoes, bridal accessories, Mother of the bride or groom dresses, formal handbags, formal jewelry, formal shoes for rental and purchase.
 
-             Take a look at some of our selections.
-        </h4></p>
+                Take a look at some of our selections.
+            </h4>
+        </p>
     </div>
 
 
     <div class="row">
         <div class="col-md-6 portfolio-item">
-            <a href="@Url.Action("SingleItem","Portfolio")">
-                <img src="~/images/bride-dress.jpg" class="img-responsive">
-            </a>
+            <div>
+                <a class="example-image-link" href="~/images/bride-dress.jpg" data-lightbox="example-set" data-title="photo of a beautiful wedding gown.">
+                  <img class="example-image" src="~/images/bride-dress-thumb3.jpg" alt="" />
+                </a>
+            </div>
             <h3>
-                @Html.ActionLink("Project Name", "SingleItem", "Portfolio")
+                Project Name
             </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <hr />
         </div>
         <div class="col-md-6 portfolio-item">
             <a href="@Url.Action("SingleItem","Portfolio")">
                 <img src="http://placehold.it/750x450" class="img-responsive">
             </a>
             <h3>
-                @Html.ActionLink("Project Name", "SingleItem", "Portfolio")
+                Project Name
             </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <hr />
         </div>
     </div>
     <div class="row">
@@ -91,31 +95,4 @@
         </div>
     </div>
     <hr>
-    <div class="row text-center">
-        <div class="col-lg-12">
-            <ul class="pagination">
-                <li>
-                    <a href="#">«</a>
-                </li>
-                <li class="active">
-                    <a href="#">1</a>
-                </li>
-                <li>
-                    <a href="#">2</a>
-                </li>
-                <li>
-                    <a href="#">3</a>
-                </li>
-                <li>
-                    <a href="#">4</a>
-                </li>
-                <li>
-                    <a href="#">5</a>
-                </li>
-                <li>
-                    <a href="#">»</a>
-                </li>
-            </ul>
-        </div>
-    </div>
 </div>
