@@ -8,3 +8,4 @@ This project was built with ASP.NET MVC Core using :
 3.material-kit
 4.light-box2
 5.hosted in Microsoft Azure
+**This project is solely created,developed and maintain by Marcus Shipman
